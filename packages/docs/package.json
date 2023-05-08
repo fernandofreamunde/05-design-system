@@ -4,10 +4,12 @@
   "main": "index.js",
   "license": "MIT",
   "devDependencies": {
+    "@storybook/addon-docs": "^7.0.9",
     "@storybook/addon-essentials": "^7.0.8",
     "@storybook/addon-interactions": "^7.0.8",
     "@storybook/addon-links": "^7.0.8",
     "@storybook/blocks": "^7.0.8",
+    "@storybook/preset-typescript": "^3.0.0",
     "@storybook/react": "^7.0.8",
     "@storybook/react-webpack5": "^7.0.8",
     "@storybook/testing-library": "^0.0.14-next.2",
@@ -16,6 +18,7 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "storybook": "^7.0.8",
+    "typescript": "^5.0.4",
     "vite": "^4.3.4"
   },
   "scripts": {
@@ -23,6 +26,10 @@
     "build": "storybook build"
   },
   "dependencies": {
+    "@ignition-ui/eslint-config": "*",
+    "@ignition-ui/react": "*",
+    "@ignition-ui/tokens": "*",
+    "@ignition-ui/ts-config": "*",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   }
