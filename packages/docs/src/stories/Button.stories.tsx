@@ -1,8 +1,9 @@
 import type { Meta, StoryObj } from '@storybook/react'
 import { Button, ButtonProps } from '@ignition-ui/react'
+import { ArrowRight } from 'phosphor-react'
 
 export default {
-  title: 'Button',
+  title: 'Form/Button',
   component: Button,
   args: {
     children: 'Send',
@@ -11,8 +12,33 @@ export default {
 
 export const Primary: StoryObj<ButtonProps> = {}
 
-export const Big: StoryObj<ButtonProps> = {
+export const Secondary: StoryObj<ButtonProps> = {
   args: {
-    size: 'big',
+    variant: 'secondary',
+    children: 'Create new',
+  },
+}
+
+export const Tertiary: StoryObj<ButtonProps> = {
+  args: {
+    variant: 'tertiary',
+    children: 'Cancel',
+  },
+}
+
+export const Small: StoryObj<ButtonProps> = {
+  args: {
+    size: 'sm',
+  },
+}
+
+export const WithIcon: StoryObj<ButtonProps> = {
+  args: {
+    children: (
+      <>
+        Next Step
+        <ArrowRight weight="bold" />
+      </>
+    ),
   },
 }
