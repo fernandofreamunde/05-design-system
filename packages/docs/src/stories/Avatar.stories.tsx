@@ -8,6 +8,10 @@ export default {
     src: 'https://github.com/fernandofreamundenl.png',
     alt: '',
   },
+  argTypes: {
+    src: { control: 'text' },
+    alt: { control: 'text' },
+  },
 } as Meta<AvatarProps>
 
 export const Primary: StoryObj<AvatarProps> = {}
