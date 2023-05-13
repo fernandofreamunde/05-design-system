@@ -1,6 +1,10 @@
 {
   "name": "@ignition-ux/tokens",
+<<<<<<< Updated upstream
   "version": "1.1.0",
+=======
+  "version": "1.1.1",
+>>>>>>> Stashed changes
   "description": "ignite ui design system tokens",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
