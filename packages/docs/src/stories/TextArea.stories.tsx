@@ -1,4 +1,4 @@
-import { Box, Text, TextArea, TextAreaProps } from '@ignition-ui/react'
+import { Box, Text, TextArea, TextAreaProps } from '@ignition-ux/react'
 import { Meta, StoryObj } from '@storybook/react'
 
 export default {

@@ -1,5 +1,5 @@
 {
-  "name": "@ignition-ui/docs",
+  "name": "@ignition-ux/docs",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
@@ -28,10 +28,10 @@
     "deploy-storybook": "storybook-to-ghpages"
   },
   "dependencies": {
-    "@ignition-ui/eslint-config": "*",
-    "@ignition-ui/react": "*",
-    "@ignition-ui/tokens": "*",
-    "@ignition-ui/ts-config": "*",
+    "@ignition-ux/eslint-config": "*",
+    "@ignition-ux/react": "*",
+    "@ignition-ux/tokens": "*",
+    "@ignition-ux/ts-config": "*",
     "@storybook/addon-a11y": "^7.0.10",
     "phosphor-react": "^1.4.1",
     "polished": "^4.2.2",

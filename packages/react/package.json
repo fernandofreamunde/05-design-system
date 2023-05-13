@@ -1,6 +1,6 @@
 {
-  "name": "@ignition-ui/react",
-  "version": "1.0.0",
+  "name": "@ignition-ux/react",
+  "version": "2.0.0",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
@@ -13,9 +13,9 @@
     "hello": "echo \"Hello Dev!!!\" && exit 0"
   },
   "devDependencies": {
-    "@ignition-ui/eslint-config": "*",
-    "@ignition-ui/tokens": "*",
-    "@ignition-ui/ts-config": "*",
+    "@ignition-ux/eslint-config": "*",
+    "@ignition-ux/tokens": "*",
+    "@ignition-ux/ts-config": "*",
     "@types/react": "^18.2.2",
     "@types/react-dom": "^18.2.3",
     "react": "^18.2.0",

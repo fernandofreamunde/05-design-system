@@ -1,4 +1,4 @@
-import { Box, Checkbox, CheckboxProps, Text } from '@ignition-ui/react'
+import { Box, Checkbox, CheckboxProps, Text } from '@ignition-ux/react'
 import { Meta, StoryObj } from '@storybook/react'
 
 export default {

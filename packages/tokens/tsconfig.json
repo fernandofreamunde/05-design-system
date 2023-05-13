@@ -1,4 +1,4 @@
 {
-  "extends": "@ignition-ui/ts-config/base.json",
+  "extends": "@ignition-ux/ts-config/base.json",
   "include": ["src"],
 }

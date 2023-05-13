@@ -6,7 +6,7 @@ import {
   lineHeights,
   radii,
   space,
-} from '@ignition-ui/tokens'
+} from '@ignition-ux/tokens'
 import { createStitches, defaultThemeMap } from '@stitches/react'
 
 export const {

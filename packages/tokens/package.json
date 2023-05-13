@@ -1,5 +1,5 @@
 {
-  "name": "@ignition-ui/tokens",
+  "name": "@ignition-ux/tokens",
   "version": "1.0.0",
   "description": "ignite ui design system tokens",
   "main": "./dist/index.js",
@@ -14,8 +14,8 @@
     "hello": "echo \"Hello Dev!!!\" && exit 0"
   },
   "devDependencies": {
-    "@ignition-ui/ts-config": "*",
-    "@ignition-ui/eslint-config": "*",
+    "@ignition-ux/ts-config": "*",
+    "@ignition-ux/eslint-config": "*",
     "tsup": "^6.7.0",
     "typescript": "^5.0.4"
   }
