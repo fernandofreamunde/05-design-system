@@ -1,5 +1,11 @@
 # @ignition-ux/react
 
+## 2.2.0
+
+### Minor Changes
+
+- Add tooltip and toast elements
+
 ## 2.0.1
 
 ### Patch Changes
